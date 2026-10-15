@@ -1,0 +1,14 @@
+{
+  "name": "video-toolkit",
+  "version": "1.0.0",
+  "description": "一个基于 Python 的视频处理工具集",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["video", "transcode", "subtitle", "toolkit"],
+  "author": "noobxiaomeng",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}

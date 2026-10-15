@@ -1,0 +1,25 @@
+{
+  "name": "video-toolkit",
+  "version": "1.0.0",
+  "description": "一个基于 Python 的视频处理工具集",
+  "author": {
+    "name": "noobxiaomeng",
+    "url": "https://github.com/noobxiaomeng"
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "node",
+        "args": ["${ZCODE_PLUGIN_ROOT}/hooks/session-start.mjs"]
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "video-toolkit",
+      "description": "视频处理工具集的使用方法",
+      "path": "./skills/video-toolkit.md"
+    }
+  ]
+}
